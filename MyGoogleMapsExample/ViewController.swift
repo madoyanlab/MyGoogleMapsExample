@@ -46,7 +46,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchResul
         marker.position = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
         marker.title = "Sydney"
         marker.snippet = "Australia"
+        marker.icon = GMSMarker.markerImage(with: .red)
+        marker.opacity = 0.6//
+        marker.icon = UIImage(named: "unnamed")
         marker.map = mapView!
+        manager.stopUpdatingLocation()
     }
 
     
@@ -94,13 +98,15 @@ extension ViewController: ResultsViewControllerDelegate {
         marker.position = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
         marker.title = "Sydney"
         marker.snippet = "Australia"
+        marker.icon = GMSMarker.markerImage(with: .blue)
+        marker.opacity = 0.8//
         marker.map = mapView!
         
-        let marke = GMSMarker()
-        marke.position = CLLocationCoordinate2D(latitude: coordinates.latitude + 0.001, longitude: coordinates.longitude + 0.001)
-        marke.title = "Sydney"
-        marke.snippet = "Australia"
-        marke.map = mapView!
+//        let marke = GMSMarker()
+//        marke.position = CLLocationCoordinate2D(latitude: coordinates.latitude + 0.001, longitude: coordinates.longitude + 0.001)
+//        marke.title = "Sydney"
+//        marke.snippet = "Australia"
+//        marke.map = mapView!
         
     }
     
