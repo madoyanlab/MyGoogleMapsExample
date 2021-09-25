@@ -81,7 +81,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchResul
 extension ViewController: ResultsViewControllerDelegate {
     func didTapPlace(with coordinates: CLLocationCoordinate2D) {
         searchVC.searchBar.resignFirstResponder()
-        
+        searchVC.dismiss(animated: true, completion: nil)
         // Remove all map pins
 //        mapView.remove
         guard mapView != nil else { return }
