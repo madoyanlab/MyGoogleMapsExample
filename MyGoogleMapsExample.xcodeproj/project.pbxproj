@@ -15,11 +15,12 @@
 		3E94991D26FB995200500B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E94991B26FB995200500B66 /* LaunchScreen.storyboard */; };
 		3E9DBE9726FCEFDC0027DDDC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DBE9626FCEFDB0027DDDC /* ResultsViewController.swift */; };
 		3E9DBE9926FCFCCB0027DDDC /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DBE9826FCFCCB0027DDDC /* GooglePlacesManager.swift */; };
-		3FE00825F2BC79919824A206 /* Pods_MyGoogleMapsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3D4787D1527654CAAD953C /* Pods_MyGoogleMapsExample.framework */; };
+		8473E2F7BC7E256227475EBB /* libPods-MyGoogleMapsExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD40B9CFD9D8F4D0435B547 /* libPods-MyGoogleMapsExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		164EF7AA4ECB8228F55F52C6 /* Pods-MyGoogleMapsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoogleMapsExample.debug.xcconfig"; path = "Target Support Files/Pods-MyGoogleMapsExample/Pods-MyGoogleMapsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD40B9CFD9D8F4D0435B547 /* libPods-MyGoogleMapsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGoogleMapsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E94990D26FB994C00500B66 /* MyGoogleMapsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoogleMapsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E94991026FB994C00500B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E94991226FB994C00500B66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		3E94991E26FB995200500B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E9DBE9626FCEFDB0027DDDC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		3E9DBE9826FCFCCB0027DDDC /* GooglePlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
-		6B3D4787D1527654CAAD953C /* Pods_MyGoogleMapsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGoogleMapsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A348F012EFD7783AAD131201 /* Pods-MyGoogleMapsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoogleMapsExample.release.xcconfig"; path = "Target Support Files/Pods-MyGoogleMapsExample/Pods-MyGoogleMapsExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE00825F2BC79919824A206 /* Pods_MyGoogleMapsExample.framework in Frameworks */,
+				8473E2F7BC7E256227475EBB /* libPods-MyGoogleMapsExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		4AD31E934BCCEC02BD6D9CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B3D4787D1527654CAAD953C /* Pods_MyGoogleMapsExample.framework */,
+				1AD40B9CFD9D8F4D0435B547 /* libPods-MyGoogleMapsExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
