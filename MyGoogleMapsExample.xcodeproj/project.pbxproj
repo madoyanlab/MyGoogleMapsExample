@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E414B8627162DB10033FF30 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E414B8527162DB10033FF30 /* style.json */; };
 		3E94991126FB994C00500B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E94991026FB994C00500B66 /* AppDelegate.swift */; };
 		3E94991326FB994C00500B66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E94991226FB994C00500B66 /* SceneDelegate.swift */; };
 		3E94991526FB994C00500B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E94991426FB994C00500B66 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		164EF7AA4ECB8228F55F52C6 /* Pods-MyGoogleMapsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoogleMapsExample.debug.xcconfig"; path = "Target Support Files/Pods-MyGoogleMapsExample/Pods-MyGoogleMapsExample.debug.xcconfig"; sourceTree = "<group>"; };
 		1AD40B9CFD9D8F4D0435B547 /* libPods-MyGoogleMapsExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGoogleMapsExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E414B8527162DB10033FF30 /* style.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = style.json; sourceTree = "<group>"; };
 		3E94990D26FB994C00500B66 /* MyGoogleMapsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoogleMapsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E94991026FB994C00500B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E94991226FB994C00500B66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3E94991226FB994C00500B66 /* SceneDelegate.swift */,
 				3E94991426FB994C00500B66 /* ViewController.swift */,
 				3E9DBE9826FCFCCB0027DDDC /* GooglePlacesManager.swift */,
+				3E414B8527162DB10033FF30 /* style.json */,
 				3E9DBE9626FCEFDB0027DDDC /* ResultsViewController.swift */,
 				3E94991626FB994C00500B66 /* Main.storyboard */,
 				3E94991926FB995200500B66 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				3E94991D26FB995200500B66 /* LaunchScreen.storyboard in Resources */,
 				3E94991A26FB995200500B66 /* Assets.xcassets in Resources */,
 				3E94991826FB994C00500B66 /* Main.storyboard in Resources */,
+				3E414B8627162DB10033FF30 /* style.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
