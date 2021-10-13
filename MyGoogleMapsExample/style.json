@@ -1,14 +1,9 @@
 [
   {
-    "featureType": "all",
+    "featureType": "road.arterial",
+    "elementType": "geometry",
     "stylers": [
-      { "color": "#C0C0C0" }
-    ]
-  },{
-    "featureType": "poi.school",
-    "elementType": "geometry.fill",
-    "stylers": [
-      { "color": "#FFFFFF" }, { "saturation": -100 }
+      { "color": "#CCFFFF" }
     ]
   },{
     "featureType": "landscape",

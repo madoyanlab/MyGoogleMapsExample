@@ -30,7 +30,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchResul
         
         do {
             // Set the map style by passing the URL of the local file.
-            if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
+            if let styleURL = Bundle.main.url(forResource: "style1", withExtension: "json") {
                 mapView?.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
             } else {
                 NSLog("Unable to find style.json")
@@ -48,11 +48,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchResul
         
         let coordinate = location.coordinate
         let camera = GMSCameraPosition.camera(withLatitude: coordinate.latitude, longitude: coordinate.longitude, zoom: 9.0)
-        mapView = GMSMapView.map(withFrame: view.frame, camera: camera)
-        mapView!.frame = CGRect(x: 0, y: view.safeAreaInsets.top,
+        let mapID = GMSMapID(identifier: "d60ac1b1c972b9bb")
+        let mapView = GMSMapView(frame: CGRect.zero, mapID: mapID, camera: camera)
+        mapView.frame = CGRect(x: 0, y: view.safeAreaInsets.top,
                                width: view.frame.size.width,
                                height: view.frame.size.height - view.safeAreaInsets.top)
-        view.addSubview(mapView!)
+        view.addSubview(mapView)
         
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
@@ -61,7 +62,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchResul
         marker.icon = GMSMarker.markerImage(with: .red)
         marker.opacity = 0.6//
         marker.icon = UIImage(named: "unnamed")
-        marker.map = mapView!
+        marker.map = mapView
         manager.stopUpdatingLocation()
     }
 
